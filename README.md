@@ -4,4 +4,4 @@ Uses a Esri-hosted StatePlane Zone (NAD83) polygon file to search epsg.io for ma
 Uses the service here for the zone polygons 
 https://hub.arcgis.com/datasets/esri::usa-state-plane-zones-nad83/about
 
-and searches against https://epsg.io for the zone numbers
+and searches against the zone numbers against https://epsg.io for the wkt. Not lal zones have a matching State Plane in Meters.
